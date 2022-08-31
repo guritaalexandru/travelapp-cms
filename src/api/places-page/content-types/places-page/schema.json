@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "places_pages",
+  "info": {
+    "singularName": "places-page",
+    "pluralName": "places-pages",
+    "displayName": "Places Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "dynamic-s.t1-hero-ref",
+        "dynamic-s.t2-hero-ref",
+        "dynamic-s.rbp-ref",
+        "dynamic-s.social-ref"
+      ]
+    }
+  }
+}

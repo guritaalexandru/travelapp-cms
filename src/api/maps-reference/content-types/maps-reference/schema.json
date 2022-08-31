@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "maps_references",
+  "info": {
+    "singularName": "maps-reference",
+    "pluralName": "maps-references",
+    "displayName": "Maps Reference"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "googleMapsHref": {
+      "type": "string"
+    },
+    "appleMapsHref": {
+      "type": "string"
+    }
+  }
+}

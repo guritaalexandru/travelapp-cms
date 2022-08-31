@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "t2_hero_sections",
+  "info": {
+    "singularName": "t2-hero-section",
+    "pluralName": "t2-hero-sections",
+    "displayName": "T2 Hero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mapsReference": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::maps-reference.maps-reference"
+    }
+  }
+}

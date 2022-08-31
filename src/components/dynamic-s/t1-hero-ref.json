@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dynamic_s_t1_hero_refs",
+  "info": {
+    "displayName": "T1HeroRef",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "t1hero": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::t1-hero-section.t1-hero-section"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

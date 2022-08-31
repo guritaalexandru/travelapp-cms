@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_sections",
+  "info": {
+    "singularName": "social-section",
+    "pluralName": "social-sections",
+    "displayName": "Social Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

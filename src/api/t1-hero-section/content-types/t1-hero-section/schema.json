@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "t1_hero_sections",
+  "info": {
+    "singularName": "t1-hero-section",
+    "pluralName": "t1-hero-sections",
+    "displayName": "T1 Hero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "buttonCTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "parts.button-cta"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dynamic_s_social_refs",
+  "info": {
+    "displayName": "SocialRef",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "socialRef": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::social-section.social-section"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

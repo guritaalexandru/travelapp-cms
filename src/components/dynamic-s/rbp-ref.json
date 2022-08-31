@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dynamic_s_rbp_refs",
+  "info": {
+    "displayName": "RBPRef",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "rbp": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::resource-basic-preview-section.resource-basic-preview-section"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
