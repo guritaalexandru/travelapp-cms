@@ -33,8 +33,6 @@ module.exports = createCoreController('api::places-page.places-page', ({ strapi 
                 return ctx.badRequest('Path is required');
             }
 
-            console.log(strapi.config.functions);
-
             const pageEntry = await strapi.config.utils.dynamicSectionPopulate('api::places-page.places-page', { href: path });
 
             if (!pageEntry) {
