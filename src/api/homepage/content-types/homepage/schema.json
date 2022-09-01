@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "dynamic-s.rbp-ref",
+        "dynamic-s.social-ref",
+        "dynamic-s.t1-hero-ref",
+        "dynamic-s.t2-hero-ref"
+      ]
+    }
+  }
+}
