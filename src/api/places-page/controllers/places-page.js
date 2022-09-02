@@ -24,26 +24,4 @@ module.exports = createCoreController('api::places-page.places-page', ({ strapi 
             return ctx.badRequest('Something went wrong');
         }
     },
-
-    async getPageData(ctx) {
-        try {
-            const path = ctx?.params?.path;
-            logger.info(`GET /api/places-pages/${path}`);
-            if (!path) {
-                return ctx.badRequest('Path is required');
-            }
-
-            const pageEntry = await strapi.config.utils.dynamicSectionPopulate('api::places-page.places-page', { href: path });
-
-            if (!pageEntry) {
-                return ctx.badRequest('Page not found');
-            }
-
-            return pageEntry;
-        }
-        catch (err) {
-            logger.error(err);
-            return ctx.badRequest('Something went wrong');
-        }
-    }
 }));
