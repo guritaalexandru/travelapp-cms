@@ -1,18 +1,18 @@
 'use strict';
 
 /**
- * places-page controller
+ * articles-page controller
  */
 
 const logger = require('../../../../helpers/logger');
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::places-page.places-page', ({ strapi }) => ({
+module.exports = createCoreController('api::articles-page.articles-page', ({ strapi }) => ({
     async getAllPaths(ctx) {
         try {
-            logger.info('GET /api/places-pages/paths');
-            return await strapi.config.utils.getAllPaths('api::places-page.places-page');
+            logger.info('GET /api/articles-pages/paths');
+            return await strapi.config.utils.getAllPaths('api::articles-page.articles-page');
         }
         catch (err) {
             logger.error(err);

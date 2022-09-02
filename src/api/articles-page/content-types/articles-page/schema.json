@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles_pages",
+  "info": {
+    "singularName": "articles-page",
+    "pluralName": "articles-pages",
+    "displayName": "Articles Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "dynamic-s.rbp-ref",
+        "dynamic-s.social-ref",
+        "dynamic-s.t1-hero-ref",
+        "dynamic-s.t2-hero-ref"
+      ]
+    }
+  }
+}
