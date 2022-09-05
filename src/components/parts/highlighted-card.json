@@ -2,7 +2,8 @@
   "collectionName": "components_parts_highlighted_cards",
   "info": {
     "displayName": "HighlightedCard",
-    "icon": "apple-alt"
+    "icon": "apple-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,17 +11,13 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "buttonCTA": {
-      "type": "component",
-      "repeatable": false,
-      "component": "parts.button-cta"
+      ]
     }
   }
 }

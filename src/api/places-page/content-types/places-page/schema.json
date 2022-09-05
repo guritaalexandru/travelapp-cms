@@ -5,7 +5,7 @@
     "singularName": "places-page",
     "pluralName": "places-pages",
     "displayName": "Places Page",
-    "description": ""
+    "description": "Configure the visitable places pages"
   },
   "options": {
     "draftAndPublish": true
