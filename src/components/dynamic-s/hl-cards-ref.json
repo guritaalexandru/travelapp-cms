@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_dynamic_s_hl_cards_refs",
+  "info": {
+    "displayName": "HLCardsRef",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HLCards": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::highlighted-cards-section.highlighted-cards-section"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

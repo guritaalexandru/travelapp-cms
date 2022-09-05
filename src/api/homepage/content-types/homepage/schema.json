@@ -4,7 +4,8 @@
   "info": {
     "singularName": "homepage",
     "pluralName": "homepages",
-    "displayName": "Homepage"
+    "displayName": "Homepage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,7 +24,8 @@
         "dynamic-s.rbp-ref",
         "dynamic-s.social-ref",
         "dynamic-s.t1-hero-ref",
-        "dynamic-s.t2-hero-ref"
+        "dynamic-s.t2-hero-ref",
+        "dynamic-s.hl-cards-ref"
       ]
     }
   }

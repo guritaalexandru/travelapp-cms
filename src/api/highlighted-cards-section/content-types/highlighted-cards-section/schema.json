@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "highlighted_cards_sections",
+  "info": {
+    "singularName": "highlighted-cards-section",
+    "pluralName": "highlighted-cards-sections",
+    "displayName": "Highlighted Cards Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "highlightedCards": {
+      "displayName": "HighlightedCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "parts.highlighted-card"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
