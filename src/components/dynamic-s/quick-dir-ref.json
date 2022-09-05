@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dynamic_s_quick_dir_refs",
+  "info": {
+    "displayName": "QuickDirRef",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "quickDir": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::quick-directions-section.quick-directions-section"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

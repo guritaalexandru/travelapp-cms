@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_parts_direction_cards",
+  "info": {
+    "displayName": "DirectionCard",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "destination": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "PLANE",
+        "TRAIN",
+        "BUS"
+      ]
+    }
+  }
+}

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "articles-page",
     "pluralName": "articles-pages",
-    "displayName": "Articles Page"
+    "displayName": "Articles Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,7 +27,9 @@
         "dynamic-s.rbp-ref",
         "dynamic-s.social-ref",
         "dynamic-s.t1-hero-ref",
-        "dynamic-s.t2-hero-ref"
+        "dynamic-s.t2-hero-ref",
+        "dynamic-s.hl-cards-ref",
+        "dynamic-s.quick-dir-ref"
       ]
     }
   }
