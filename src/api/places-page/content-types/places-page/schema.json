@@ -29,7 +29,8 @@
         "dynamic-s.rbp-ref",
         "dynamic-s.social-ref",
         "dynamic-s.hl-cards-ref",
-        "dynamic-s.quick-dir-ref"
+        "dynamic-s.quick-dir-ref",
+        "dynamic-s.rnd-place-ref"
       ]
     }
   }

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "random_place_sections",
+  "info": {
+    "singularName": "random-place-section",
+    "pluralName": "random-place-sections",
+    "displayName": "Random Place Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}

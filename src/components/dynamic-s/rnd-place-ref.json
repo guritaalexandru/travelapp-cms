@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dynamic_s_rnd_place_refs",
+  "info": {
+    "displayName": "RndPlaceRef",
+    "icon": "eye-slash"
+  },
+  "options": {},
+  "attributes": {
+    "rndPlace": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::random-place-section.random-place-section"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
